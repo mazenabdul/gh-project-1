@@ -12,5 +12,5 @@ jobs:
           node-version: 16
       - name: Install client deps
         run: npm install
-      - name: Run lintter
-        run: npm lint
+      - name: Run linter
+        run: npm run lint
