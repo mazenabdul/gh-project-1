@@ -1,0 +1,8 @@
+name: Deployment
+on: [push, workflow_dispatch]
+jobs:
+  Linter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test workflow setup
+        run: echo "Testing"
